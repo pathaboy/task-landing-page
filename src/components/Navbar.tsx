@@ -2,16 +2,16 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Header = () => {
+const Navbar = () => {
   return (
     <header className="p-5 bg-black">
       <div className="container flex justify-between items-center">
         <Link href="/">
           <Image
-            src={"/assets/icons/logo.svg"}
+            src={"/assets/images/logosaas.svg"}
             alt="task-manager"
             width={40}
-            height={41}
+            height={40}
           />
         </Link>
 
@@ -35,4 +35,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
